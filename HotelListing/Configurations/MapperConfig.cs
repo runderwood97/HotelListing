@@ -17,6 +17,8 @@ namespace HotelListing.Configurations
 
             // Hotel Mappers
             CreateMap<Hotel, GetHotelModel>().ReverseMap();
+            CreateMap<Hotel, CreateHotelModel>().ReverseMap();
+            CreateMap<Hotel, UpdateHotelModel>().ReverseMap();
         }
     }
 }
